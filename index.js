@@ -38,7 +38,7 @@ async function getBody(url) {
   function getTelefonos(nombre,poblacion){
       let nombres =  {'no': nombre,'lo':poblacion};
       nombres = querystring.stringify(nombres); 
-      var link="http://blancas.paginasamarillas.es/jsp/resultados.jsp?sec=08&pgpv=0&tbus=0&nomprov=Barcelona&idioma=tml_lang&";   
+      var link="www.google.es";   
       return getBody(link+nombres);
   }
   require('events').EventEmitter.defaultMaxListeners = 15;
